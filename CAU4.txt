@@ -1,0 +1,34 @@
+
+Tổng hợp các chức năng chính của bitbucket
+
+https://Bitbucket.org/ – Miễn phí không giới hạn private repositories, nhưng phải trả phí để được nhóm >3 members
+*Các chức năng:
+- Create repository
+Sau đây là các bước kết hợp Bitbucket với GitHub for Windows:
+1.	Cài đặt GitHub for windows http://windows.github.com/
+2.	Đăng ký tài khoản miển phí ở https://bitbucket.org/
+3.	Đăng nhập vào Bitbucket, chọn Repositories –> Create new repository.
+4.	Tạo một Git repository mới theo hình bên dưới:
+ 
+5.	Sau khi tạo repository xong, bạn vào trang chủ của repository, chọn Clone rồi copy repository url (phần tô màu xanh):
+ 
+6.	Mở Git Shell (được cài theo Github for Windows) dán url copy ở bước trên vào. Nó sẽ tạo 1 thư mục mới, tạo một git repository mới bên trong thư mục này, và link repository đó với online repository trên Bitbucket.org:
+ 
+7.	Mở GitHub for Windows.
+8.	Để cho phép GitHub for Windows quản lý repository mới đó, đơn giản chỉ cần kéo thả thu mục repository vào GitHub for Windows . Nó cho phép bạn commit các thay đổi và đồng bộ với online repository.
+9.	Bây giờ bạn có thể bắt đầu thêm code (thêm file hoặc thư mục) vào repository mới và đồng bộ lên Bitbucket.
+- Overview
+Kiến trúc của hệ thống sẽ được biểu diễn ở các view khác nhau. Cách biểu diễn các key abtraction từ đó định nghĩa được các class của hệ thống.
+Trong phần phân tích ca sử dụng, mỗi ca sử dụng sẽ được biểu diễn thông qua các biểu đồ lớp: lớp thực thể, lớp biên hệ thống, lớp điều khiển. Quá trình tương tác của hệ thống như thế nào sẽ được biểu diễn qua biểu đồ tuần tự.
+Phân tích kiến trúc, phân tích Usecase là bước quan trọng cho việc thiết kế và cài đặt.
+-Nói chung cũng chỉ có 4 việc cần làm trên web:
+
+1. Tạo repo, không có gì thay đổi.
+2. Clone repo: Có chữ clone rất to ở thanh công cụ bên phải.
+3. Set quyền: Vào cái settings (icon bánh răng), tiếp theo như cũ
+4. Xóa repo: Vào settings, như cũ.
+Còn nhiều chức năng khác nữa. Đây là link tham khảo về Bitbucket
+1.	http://www.youtube.com/watch?v=meoNFzP7-ds Cài đặt phần mềm và đăng ký tài khoản.
+2.	http://www.youtube.com/watch?v=dQ3QjtJGFlE Tạo repos
+3.	http://www.youtube.com/watch?v=3W79R5Lr8wc Liên kết local và server, thêm file, sửa file.
+4.	Còn nhiều nữa (tiếp theo 4, 5, 6,.... trên youtube.com)
